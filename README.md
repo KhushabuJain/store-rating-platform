@@ -129,3 +129,13 @@ backend (`express-validator`, source of truth).
   case-insensitive partial-match filters on Name/Email/Address/Role.
 - JWT is stored in `localStorage` on the frontend and attached via an axios
   request interceptor; a response interceptor logs the user out on 401.
+
+  ## Demo Credentials
+
+### System Administrator
+Email: `admin@storerating.com`
+Password: `Admin@12345`
+
+The administrator can create Store Owner and Normal User accounts from the dashboard.
+
+> For security, these credentials are intended only for local/demo evaluation.
